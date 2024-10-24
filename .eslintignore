@@ -1,0 +1,9 @@
+node_modules/
+build/
+dist/
+*.config.js
+
+# Ignore logs and temporary build files
+*.log
+.tmp/
+.cache/
