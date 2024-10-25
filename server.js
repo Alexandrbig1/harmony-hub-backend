@@ -4,11 +4,7 @@ import app from "./app.js";
 const { DB_HOST, PORT = 5000 } = process.env;
 
 mongoose
-  .connect(DB_HOST, {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-    serverSelectionTimeoutMS: 5000,
-  })
+  .connect(DB_HOST)
   .then(() => {
     console.log("Database connection successful");
     app.listen(PORT, () => {
@@ -19,13 +15,3 @@ mongoose
     console.error("MongoDB connection error:", error);
     process.exit(1);
   });
-
-process.on("uncaughtException", (err) => {
-  console.error("Uncaught Exception:", err);
-  process.exit(1);
-});
-
-process.on("unhandledRejection", (err) => {
-  console.error("Unhandled Rejection:", err);
-  process.exit(1);
-});

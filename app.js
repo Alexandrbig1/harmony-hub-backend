@@ -7,6 +7,7 @@ import userRouter from "./routes/api/user-router.js";
 import swaggerJsdoc from "swagger-jsdoc";
 import swaggerUi from "swagger-ui-express";
 import swaggerOptions from "./config/swaggerOptions.js";
+import rateLimit from "express-rate-limit";
 
 const swaggerDocument = swaggerJsdoc(swaggerOptions);
 const app = express();
