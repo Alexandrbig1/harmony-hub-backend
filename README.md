@@ -17,7 +17,7 @@ Welcome to the backend repository of **Harmony Hub**! This project aims to provi
 
 ## Live Demo
 
-[Live Demo](https://alexandrbig1.github.io/harmony-hub/)
+[Live Demo](https://harmony-hub-live.netlify.app)
 
 ## FrontEnd Repository
 
