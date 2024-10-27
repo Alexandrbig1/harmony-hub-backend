@@ -107,14 +107,14 @@ const logOut = async (req, res) => {
   });
 };
 
-const getCurrent = async (req, res) => {
-  const { email } = req.user;
-  res.json({ email });
-};
+// const getCurrent = async (req, res) => {
+//   const { email } = req.user;
+//   res.json({ email });
+// };
 
 export default {
   signUp: ctrlWrapper(signUp),
   signIn: ctrlWrapper(signIn),
-  getCurrent: ctrlWrapper(getCurrent),
+  // getCurrent: ctrlWrapper(getCurrent),
   logOut: ctrlWrapper(logOut),
 };
