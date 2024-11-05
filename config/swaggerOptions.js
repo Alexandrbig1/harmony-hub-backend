@@ -3,7 +3,13 @@ const swaggerOptions = {
     openapi: "3.0.0",
     info: {
       title: "Harmony Hub API Documentation",
-      description: `Harmony Hub curates personalized music playlists based on your mood and preferences. Let the power of AI help you find the perfect tunes for any moment.`,
+      description: `Welcome to the Harmony Hub API! This API allows users to generate personalized music playlists based on their emotional states, with secure user registration and authentication.
+
+  Endpoints include:
+  - **Auth**: Sign up, sign in, and log out securely.
+  - **User**: Access user information.
+
+  Built with Node.js, Express.js, and MongoDB, this API was developed as part of Hackathon 2024, showcasing innovation in music personalization technology. Use this documentation to explore available endpoints and learn how to authenticate and interact with Harmony Hub's features.`,
       version: "1.0.0",
     },
 
