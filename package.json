@@ -26,9 +26,11 @@
     "lint:fix": "eslint --fix **/*.js"
   },
   "dependencies": {
+    "axios": "^1.7.8",
     "bcrypt": "^5.1.1",
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
+    "elevenlabs": "^0.18.1",
     "express": "^4.18.2",
     "express-rate-limit": "^7.4.1",
     "joi": "^17.12.1",
@@ -38,7 +40,7 @@
     "morgan": "^1.10.0",
     "swagger-jsdoc": "^6.2.8",
     "swagger-ui-express": "^5.0.0",
-    "uuid": "^9.0.1"
+    "uuid": "^11.0.3"
   },
   "devDependencies": {
     "cross-env": "^7.0.3",
