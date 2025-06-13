@@ -4,8 +4,8 @@
 
 Welcome to the backend repository of **Harmony Hub**! This project aims to provide an enriching online platform that helps users generate personalized music playlists based on their emotional state. The backend is designed to facilitate user registration, login, and playlist generation tailored specifically to individual preferences. This project was created as a participation in **Hackathon 2024**.
 
-[![GitHub last commit](https://img.shields.io/github/last-commit/Alexandrbig1/italiya-backend)](https://github.com/Alexandrbig1/italiya-backend/commits/main)
-[![GitHub license](https://img.shields.io/github/license/Alexandrbig1/italiya-backend)](https://github.com/Alexandrbig1/italiya-backend/blob/main/LICENSE)
+[![GitHub last commit](https://img.shields.io/github/last-commit/Alexandrbig1/harmony-hub-backend)](https://github.com/Alexandrbig1/harmony-hub-backend/commits/main)
+[![GitHub license](https://img.shields.io/github/license/Alexandrbig1/harmony-hub-backend)](https://github.com/Alexandrbig1/harmony-hub-backend/blob/main/LICENSE)
 [![Node.js Version](https://img.shields.io/badge/Node.js-v18.18.0-2B8B27)](https://nodejs.org/)
 [![Express.js Version](https://img.shields.io/badge/Express.js-v4.18.2-000000)](https://expressjs.com/)
 [![MongoDB](https://img.shields.io/badge/MongoDB-v6.3.0-3B9539)](https://www.mongodb.com/)
