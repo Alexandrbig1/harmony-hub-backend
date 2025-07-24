@@ -24,6 +24,8 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
           cache: "npm"
+      - name: Set npm version to 9.8.1
+        run: npm install -g npm@9.8.1
       - name: Install dependencies
         run: |
           echo "Installing dependencies..."
