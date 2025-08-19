@@ -41,7 +41,7 @@
     "uuid": "^11.1.0"
   },
   "devDependencies": {
-    "cross-env": "^7.0.3",
+    "cross-env": "^10.0.0",
     "eslint": "7.19.0",
     "eslint-config-prettier": "^10.1.8",
     "eslint-config-standard": "16.0.3",
