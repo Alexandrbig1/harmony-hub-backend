@@ -44,7 +44,7 @@
     "cross-env": "^10.0.0",
     "eslint": "7.19.0",
     "eslint-config-prettier": "^10.1.8",
-    "eslint-config-standard": "16.0.3",
+    "eslint-config-standard": "17.1.0",
     "eslint-plugin-import": "2.32.0",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "5.2.0",
